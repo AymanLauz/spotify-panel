@@ -2,10 +2,12 @@
 
 A small Spotify player for the GNOME Shell top bar.
 
+![Spotify Panel in the GNOME top bar](imgs/p1.png)
+
 The top bar shows the media buttons, a white Spotify logo and the song as **Artist - Song**:
 
 ```
-⏮ ⏸ ⏭  [Spotify logo]  Myst - ELE
+⏮ ⏸ ⏭  [Spotify logo]  Metallica - Master Of Puppets
 ```
 
 Click the logo or the text to open a mini player with:
@@ -14,6 +16,12 @@ Click the logo or the text to open a mini player with:
 - the song title (scrolls if it's too long) and the artist
 - a progress bar with the elapsed time and the song length; drag it to jump within the song
 - previous / play-pause / next buttons
+
+<p align="center">
+  <img src="imgs/p2.png" alt="The mini player popup" height="420">
+  &nbsp;
+  <img src="imgs/p3.png" alt="The mini player next to the Spotify app" height="420">
+</p>
 
 ## Features
 
