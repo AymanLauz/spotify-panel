@@ -7,7 +7,7 @@ A small Spotify player for the GNOME Shell top bar.
 The top bar shows the media buttons, a white Spotify logo and the song as **Artist - Song**:
 
 ```
-⏮ ⏸ ⏭  [Spotify logo]  Metallica - Master Of Puppets
+⏮ ⏸ ⏭ <Spotify logo>  <Artist> - <Song>
 ```
 
 Click the logo or the text to open a mini player with:
