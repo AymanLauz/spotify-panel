@@ -1,0 +1,143 @@
+/* Spotify Panel styles. Top bar first, then the popup. */
+
+/* ---- Top bar ---- */
+
+/* The theme's 12px side padding moves inside the button (onto the controls
+   and the info box) so the press-to-open area reaches the right edge. */
+#panel .panel-button.spotify-panel-button {
+  -natural-hpadding: 0;
+  -minimum-hpadding: 0;
+}
+
+/* Logo + "Artist - Song" area */
+.spotify-panel-info-box {
+  spacing: 6px;
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+.spotify-panel-logo {
+  icon-size: 16px;
+  color: #ffffff;
+}
+
+.spotify-panel-text {
+  color: #ffffff;
+}
+
+/* Prev / play-pause / next in the top bar */
+.spotify-panel-controls {
+  spacing: 2px;
+  padding-left: 8px;
+}
+
+.spotify-panel-control {
+  color: #ffffff;
+  padding: 3px;
+  border-radius: 99px;
+}
+
+.spotify-panel-control:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.spotify-panel-control:insensitive {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.spotify-panel-control StIcon {
+  icon-size: 16px;
+}
+
+/* ---- Popup ---- */
+
+/* Whole popup */
+.spotify-panel-popup {
+  spacing: 5px;
+  padding: 8px 10px 3px;
+}
+
+/* Album cover */
+.spotify-panel-cover {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(127, 127, 127, 0.15);
+  margin-bottom: 8px;
+}
+
+.spotify-panel-cover:hover {
+  box-shadow: inset 0 0 0 250px rgba(0, 0, 0, 0.12);
+}
+
+.spotify-panel-cover-placeholder {
+  icon-size: 80px;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+/* Song title and artist */
+.spotify-panel-popup-title-clip {
+  width: 250px;
+}
+
+.spotify-panel-popup-title {
+  font-weight: bold;
+  font-size: 1.35em;
+}
+
+.spotify-panel-popup-artist {
+  max-width: 250px;
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Progress bar row and its times */
+.spotify-panel-time-row {
+  width: 250px;
+  spacing: 10px;
+  margin-top: 8px;
+}
+
+/* Spotify green for the played part of the bar */
+.spotify-panel-time-row .slider {
+  -barlevel-active-background-color: #1ed760;
+}
+
+.spotify-panel-time {
+  font-size: 1em;
+  font-feature-settings: "tnum";
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Big prev / play-pause / next buttons */
+.spotify-panel-popup-controls {
+  spacing: 20px;
+  margin-top: 3px;
+}
+
+.spotify-panel-popup-control {
+  padding: 10px;
+  border-radius: 99px;
+}
+
+.spotify-panel-popup-control:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.spotify-panel-popup-control:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.spotify-panel-popup-control:insensitive {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.spotify-panel-popup-control StIcon {
+  icon-size: 24px;
+}
+
+.spotify-panel-popup-play StIcon {
+  icon-size: 36px;
+}

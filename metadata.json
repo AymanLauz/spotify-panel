@@ -1,0 +1,7 @@
+{
+  "uuid": "spotify-panel@imn",
+  "name": "Spotify Panel",
+  "description": "Shows the current Spotify song with media controls in the top bar, and a mini player with cover, seek bar and controls when clicked. Only follows Spotify; hidden when Spotify is closed.",
+  "shell-version": ["50"],
+  "url": "https://github.com/AymanLauz/spotify-panel"
+}
