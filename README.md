@@ -18,9 +18,9 @@ Click the logo or the text to open a mini player with:
 - previous / play-pause / next buttons
 
 <p align="center">
-  <img src="imgs/p2.png" alt="The mini player popup" height="420">
+  <img src="imgs/p2.png" alt="The mini player popup" width="26%">
   &nbsp;
-  <img src="imgs/p3.png" alt="The mini player next to the Spotify app" height="420">
+  <img src="imgs/p3.png" alt="The mini player next to the Spotify app" width="70%">
 </p>
 
 ## Features
